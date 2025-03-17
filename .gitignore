@@ -1,0 +1,48 @@
+# Ignore Python dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+*.keras
+*.local
+*.npm
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# Ignore Docker-specific files
+.docker/
+docker-compose.override.yml
+
+# Ignore system and temporary files
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore build files (if applicable)
+build/
+dist/
+
+# Ignore large cache files
+.cache/
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore Git metadata from submodules
+.git/modules/
+
+# Ignore Docker image layers (if saved locally)
+*.tar
