@@ -20,3 +20,5 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 # Fix permissions for the notebook user
 RUN fix-permissions "/home/${NB_USER}"
+
+COPY lyrics/input_lyrics.txt translator.ipynb audiodub.ipynb lyrics_generator.ipynb sub_generator.ipynb./
